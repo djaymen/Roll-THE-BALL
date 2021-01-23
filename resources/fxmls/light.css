@@ -1,0 +1,257 @@
+
+.fond
+{
+    -fx-background-image: url("../../resources/imgs/bg_menu.jpg");
+    -fx-background-size: cover;
+
+
+}
+
+.fond_carre
+{
+    -fx-background-color: linear-gradient(to bottom right, rgba(4, 4, 4, 0.61), rgba(64, 59, 85, 0.8));
+    -fx-opacity: 0.95;
+    -fx-border-width: 3px;
+    -fx-border-color: #60ff9a;
+    -fx-border-radius: 25px;
+    -fx-background-radius: 15;
+}
+
+.carre
+{
+    -fx-background-color: linear-gradient(to bottom right, rgba(31, 32, 32, 0.65), rgba(2, 4, 3, 0.73));
+    -fx-opacity: 0.95;
+    -fx-border-width: 3px;
+    -fx-border-color: #020403;
+    -fx-border-radius: 25px;
+    -fx-background-radius: 15;
+}
+
+.text_field
+{
+    -fx-text-fill: white;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-font-size: 24;
+}
+
+.btn
+{
+    -fx-padding: 10 10 10 10;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-font-size: 24;
+
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-text-fill: white;
+
+
+}
+
+.btn:hover
+{
+    -fx-padding: 10 10 10 10;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-font-size: 24;
+
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-text-fill: black;
+
+
+}
+
+.btn_retour
+{
+    -fx-padding: 10 10 10 10;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-font-size: 24;
+
+    -fx-background-color: transparent;
+    -fx-border-color: #5dffb7;
+    -fx-border-width: 3;
+    -fx-text-fill: #5dffb7;
+
+
+}
+
+.btn_retour:hover
+{
+    -fx-padding: 10 10 10 10;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-font-size: 24;
+
+    -fx-background-color: #6affaa;
+    -fx-border-color: #000000;
+    -fx-border-width: 3;
+    -fx-text-fill: black;
+
+
+}
+
+
+#titre
+{
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 40;
+    -fx-border-radius: 30px;
+    -fx-border-style: solid;
+    -fx-border-width: 0 3 3 0;
+    -fx-border-color: linear-gradient(to bottom right, rgba(24, 255, 46, 0.5), rgb(96, 255, 154));
+    -fx-text-fill: linear-gradient(to bottom right, rgba(89, 255, 210, 0.5), rgb(232, 248, 227));
+}
+
+/*.titre*/
+/*{*/
+    /*-fx-font-family: "Comic Sans MS", cursive, sans-serif;*/
+    /*-fx-font-size: 40;*/
+    /*-fx-padding: 10 10 10 10;*/
+
+    /*-fx-border-style: solid;*/
+    /*-fx-border-width: 0 3 3 0;*/
+    /*-fx-border-color: linear-gradient(to bottom right, rgba(255, 251, 251, 0.5), rgb(232, 248, 227));*/
+    /*-fx-text-fill: linear-gradient(to bottom right, rgba(255, 251, 251, 0.5), rgb(232, 248, 227));*/
+/*}*/
+
+
+
+.label
+{
+    -fx-padding: 10 10 10 15;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-font-size: 25;
+
+    -fx-background-color: transparent;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 0 0 3 0;
+    -fx-text-fill: #e3fcff;
+
+
+}
+
+.label_info
+{
+    -fx-padding: 0;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-font-size: 20;
+
+    -fx-background-color: transparent;
+    -fx-border-color: #f1fff9;
+    -fx-border-width: 0 0 0 0;
+    -fx-text-fill: #e3fcff;
+
+
+}
+
+
+
+.label_info_result
+{
+    -fx-padding: 0;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-font-size: 32;
+
+    -fx-background-color: transparent;
+    -fx-border-color: #00ff2d;
+    -fx-border-width: 0 0 0 0;
+    -fx-text-fill: #0cff00;
+
+
+}
+
+.btn_aide
+{
+    -fx-padding: 10 10 10 10;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-font-size: 24;
+    -fx-border-width: 2;
+    -fx-border-color: white;
+    -fx-border-radius: 50%;
+    -fx-background-color: transparent;
+    -fx-text-fill: #fbffff;
+
+
+}
+
+.btn_aide:hover
+{
+    -fx-padding: 10 10 10 10;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-font-size: 24;
+    -fx-background-color: #4675ff;
+    -fx-background-radius: 50;
+    -fx-text-fill: #ffffff;
+
+
+}
+
+.btn_liste
+{
+    -fx-padding: 10 10 10 10;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-font-size: 24;
+    -fx-background-color: #4952ff;
+    -fx-text-fill: #fbffff;
+
+
+}
+
+.btn_liste:hover
+{
+    -fx-padding: 10 10 10 10;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+    -fx-font-size: 24;
+    -fx-background-color: #648fff;
+    -fx-text-fill: #ffffff;
+
+
+}
+
+
+.case_verte
+{
+
+    -fx-background-color: transparent;
+    -fx-border-color: #0cff0f;
+    -fx-border-width: 3;
+
+}
+
+.plateauEnPause
+{
+    -fx-opacity: 0;
+}
+
+.fond_pause
+{
+    -fx-background-image: url("../../resources/imgs/play.gif");
+    -fx-background-position: center;
+    -fx-opacity: 0.6;
+    /*-fx-background-size: cover;*/
+    /*-fx-background-repeat: no-repeat;*/
+    -fx-border-width: 3px;
+    -fx-border-color: #9aa7ff;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+}
+
+.btn_niveau
+{
+    -fx-border-radius: 50%;
+    -fx-border-width: 3px;
+    -fx-border-color: #59ffd2;
+    -fx-text-fill: #90ffe1;
+    -fx-background-color: transaprent;
+    -fx-background-radius: 50%;
+}
+
+.btn_niveau:hover
+{
+    -fx-border-radius: 50%;
+    -fx-border-width: 3px;
+    -fx-border-color: #040404;
+    -fx-text-fill: #040404;
+    -fx-background-color: #60ff9a;
+    -fx-background-radius: 40;
+}

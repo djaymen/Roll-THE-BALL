@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXSlider?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="scene" prefHeight="720.0" prefWidth="1280.0" styleClass="fond" stylesheets="@dark.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="roll_the_ball.views.Fen_Sons">
+   <children>
+      <AnchorPane fx:id="container" layoutX="369.0" layoutY="60.0" prefHeight="500.0" prefWidth="494.0" styleClass="fond_carre" AnchorPane.leftAnchor="380.0" AnchorPane.topAnchor="60.0">
+         <children>
+            <Label id="titre" alignment="CENTER" layoutX="94.0" layoutY="14.0" prefHeight="75.0" prefWidth="332.0" styleClass="titre_style" text="Sons" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="44.0" />
+               </font>
+               <effect>
+                  <Bloom />
+               </effect>
+            </Label>
+            <HBox layoutX="96.0" layoutY="427.0" prefHeight="119.0" prefWidth="328.0">
+               <children>
+                  <JFXButton fx:id="btn_retour" alignment="CENTER" onAction="#retour" prefHeight="70.0" prefWidth="300.0" styleClass="btn_retour" text="Retour" textAlignment="CENTER" textFill="#bafd4e">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.3625954334972469" startY="0.6908396728166187">
+                           <stops>
+                              <Stop color="#38e56c" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="10.0" right="10.0" top="20.0" />
+                     </HBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="btn_valider" alignment="CENTER" layoutX="10.0" layoutY="10.0" onAction="#valider" prefHeight="70.0" prefWidth="300.0" styleClass="btn" text="Valider" textAlignment="CENTER" textFill="#bafd4e">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.3625954334972469" startY="0.6908396728166187">
+                           <stops>
+                              <Stop color="#38e56c" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="10.0" right="10.0" top="20.0" />
+                     </HBox.margin>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <AnchorPane layoutX="7.0" layoutY="149.0" prefHeight="230.0" prefWidth="474.0">
+               <children>
+                  <JFXComboBox fx:id="musique" focusColor="#00ffea" labelFloat="true" layoutX="139.0" layoutY="14.0" onAction="#musiqueActuelle" prefHeight="57.0" prefWidth="282.0" promptText="Musique" unFocusColor="#ffffff" />
+                  <JFXSlider fx:id="volume" layoutX="139.0" layoutY="110.0" prefHeight="70.0" prefWidth="282.0" />
+                  <Label layoutX="14.0" layoutY="117.0" prefHeight="49.0" prefWidth="108.0" styleClass="label_info" text="  Volume" />
+               </children>
+            </AnchorPane>
+         </children>
+         <stylesheets>
+            <URL value="@dark.css" />
+            <URL value="@dark.css" />
+         </stylesheets>
+      </AnchorPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" styleClass="fond" />
+   </children>
+</AnchorPane>
