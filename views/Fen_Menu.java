@@ -35,10 +35,6 @@ import java.util.ResourceBundle;
 public class Fen_Menu implements Initializable{
     public static RollTheBall rollTheball3=new RollTheBall();
 
-
-//    public static final double WIDTH=Toolkit.getDefaultToolkit().getScreenSize().width*0.75,
-//            HEIGHT=Toolkit.getDefaultToolkit().getScreenSize().height*0.9;
-
     public static final double WIDTH=1280,
             HEIGHT=720;
 
@@ -157,7 +153,7 @@ public class Fen_Menu implements Initializable{
                 ));
 
 
-        //menu_pane.getChildren().clear();
+     
         menu_pane.setVisible(false);
 
         param.setPrefWidth(556);
@@ -186,14 +182,12 @@ public class Fen_Menu implements Initializable{
         b2=new Button(" Sons   ");
         b2.setGraphic(iv2);
 
-//        b3=new Button(" Theme   ");
-//        b3.setGraphic(iv3);
+
 
         b4=new Button(" Retour   ");
 
         b1.getStyleClass().add("btn_aide");
         b2.getStyleClass().add("btn_aide");
-        //b3.getStyleClass().add("btn_aide");
         b4.getStyleClass().add("btn_retour");
 
 
@@ -225,23 +219,6 @@ public class Fen_Menu implements Initializable{
 
         });
 
-//        b3.setPrefSize(214,75);
-//        b3.setLayoutX(45);
-//        b3.setLayoutY(191);
-//        b3.setOnAction(event -> {
-//
-//            scene.getStylesheets().add("roll_the_ball/resources/fxmls/light.css");
-//            Parent.
-//            try {
-//                Fen_Connexion fC=(Fen_Connexion) changerScene(this,"connexion");
-//                fC.scene.getStylesheets().add("roll_the_ball/resources/fxmls/light.css");
-//            } catch (Exception e) {
-//                e.printStackTrace();
-//            }
-//
-//
-//
-//        });
 
         b4.setPrefSize(350,75);
         b4.setLayoutX(114);
